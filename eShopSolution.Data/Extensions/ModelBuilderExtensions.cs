@@ -87,7 +87,7 @@ namespace eShopSolution.Data.Extensions
 
             // any guid
             var roleId = new Guid("8D04DCE2-969A-435D-BBA4-DF3F325983DC");
-            var adminId = new Guid("69BD714F-9576-45BA-B5B7-F00649BE00DE");
+        var adminId = new Guid("69BD714F-9576-45BA-B5B7-F00649BE00DE");
             modelBuilder.Entity<AppRole>().HasData(new AppRole
             {
                 Id = roleId,
